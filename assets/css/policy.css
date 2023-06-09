@@ -1,0 +1,81 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 62.5%;
+  color: #1f1f1f;
+  line-height: 1.25;
+  font-weight: 400;
+}
+body {
+  font-size: 16px;
+}
+
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.page__title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.text__left {
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.paragraph {
+  font-size: 15px;
+  margin-bottom: 50px !important;
+}
+
+.paragraph--nomargin {
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.list li {
+  margin-bottom: 5px;
+  padding-left: 10px;
+}
+
+.list--dotted li {
+  list-style: disc;
+}
+.sublist li {
+  list-style-type: lower-alpha;
+  margin-bottom: 5px;
+}
+.sublist--decimal li {
+  list-style-type: decimal;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  .page__title {
+    font-size: 16px;
+  }
+  .paragraph,
+  .paragraph--nomargin {
+    font-size: 13px;
+  }
+  .paragraph {
+    margin-bottom: 30px;
+  }
+  .list li {
+    padding-left: 5px;
+  }
+}
