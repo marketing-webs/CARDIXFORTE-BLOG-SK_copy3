@@ -90,7 +90,7 @@ const commentsArray = [
     avatar: "avatar.png",
     text: "Manželka mi to objednala, lebo lekár mal u mňa podozrenie na aterosklerózu. Po užívaní tohto prípravku sa všetko vrátilo do normálu. Ešte sme dokonca obdržali balenie zdarma.",
     timestamp: "1 dzień temu",
-    pictures: "zdj1.jpg",
+    pictures: "testimony1.jpg",
     time: generateDateBefore(2, "comment"),
   },
   {
@@ -106,7 +106,7 @@ const commentsArray = [
     author: "Jana Žiaková",
     avatar: "avatar.png",
     text: "Úžasný prípravok, vrelo odporúčam.",
-    pictures: "zdj2.jpg",
+    pictures: "testimony2.jpg",
     time: generateDateBefore(2, "comment"),
   },
   {
@@ -115,7 +115,7 @@ const commentsArray = [
     avatar: "avatar.png",
     text: "Vrelo odporúčam. Rýchle dodanie a rýchle účinky. ",
     timestamp: "2 dni temu",
-    pictures: "zdj3.jpg",
+    pictures: "testimony3.jpg",
     time: generateDateBefore(0, "comment"),
   },
 ];
